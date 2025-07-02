@@ -1,0 +1,246 @@
+{
+    "name": "許佳豪",
+    "nameSub": "(Allen Hsu)",
+    "abouts":"關於",
+    "resume":"履歷",
+    "project":"專案",
+    "dkdtCompany":"旺晁有限公司",
+    "gameCompany":"遊戲橘子數位科技",
+    "ufCompany":"優識空間",
+    "hiiirCompany":"遠時數位科技",
+    "motto_no_limits" : "不為過去設限",
+    "past_open_future" : "才能為未來打開更多可能",
+    "jobTitle": "iOS & Flutter 工程師",
+    "links": [
+      { "label": "✉️ Email", "href": "mailto:pt7922310@gmail.com" },
+      { "label": "🐱 GitHub","href": "https://github.com/blackman5566", "blank": true }
+    ],
+    "buttons": [
+      { "key": "switchLanguage", "label": "EN" },
+      { "key": "toggleTheme", "labelDark": "☀️", "labelLight": "🌙" }
+    ],
+    "education": [
+      "元培科技大學 資訊工程碩士 2012/9 - 2014/6",
+      "元培科技大學 資訊工程學士 2008/9 - 2012/6"
+    ],
+    "summary": "擁有超過 8 年 iOS 原生開發及跨平台 Flutter 經驗，精通 Swift、Objective-C 及 Dart。主導多個專案從 0 到 1 的端對端開發，含即時通訊、安全驗證、多國語系、動態主題及大型流程審批等功能，具備優異的模組化設計與團隊協作能力。",
+    "experiences": [
+      {
+        "company": "資深 iOS 工程師 • 旺晁有限公司 (50-100人)",
+        "period": "2019/7 ~ 2025/6 （6年）",
+        "details": [
+          "與後端工程師協作，規劃資料庫欄位正規化並串接 RESTful API。",
+          "與 UI/UX 設計師共同討論、優化使用者流程與操作介面。",
+          "根據測試團隊提供的測試案例，執行流程驗證並回報問題。",
+          "基於 Google Analytics 撰寫報表，提供給 BD 團隊做行為分析與決策支持。",
+          "負責 App 的 Beta／Alpha 版本部署測試，並管理上架至 Apple App Store。",
+          "客製化 UI 元件以符合品牌與產品需求。"
+        ],
+        "projects": [
+          {
+            "name": "SmartxOffice 企業通訊 App｜技術負責人",
+            "link": "https://apps.apple.com/mo/app/smartxoffice/id1474181962",
+            "achievements": [
+              "核心架構建置：將功能模組化、高內聚、低耦合，提升維護性與擴充性。",
+              "即時訊息傳輸：基於 WebSocket 打造高效可靠的雙向通訊機制。",
+              "生物辨識登入：整合 Face ID／Touch ID，提供安全便捷的使用者驗證流程。",
+              "動態字體 & 主題切換：支援深色模式與多種字體大小選擇，提升可及性。",
+              "多語系支援：以在地化資源檔管理文字，快速擴展至多國語系。",
+              "訊息回執與已讀管理：顯示「已送達／已讀」狀態，並可查看團隊成員的閱讀紀錄。",
+              "訊息反應：提供表情貼圖回應，增進團隊互動樂趣。",
+              "置頂與公告板：可將重要訊息或公告置頂於頻道頂端，並提供專屬公告頻道，確保關鍵資訊不被淹沒。",
+              "即時翻譯：提供翻譯多國語言訊息，支援跨地區團隊溝通無障礙。",
+              "多層級流程設計：支援串接組織架構，設定單一流程或多階段審批，每階段可指定多位審核人並行或串行審核。",
+              "暱稱設定（Nickname）：允許使用者為聯絡人或群組成員設定自訂暱稱，並在聊天列表、對話標題及成員清單中優先顯示，提升辨識度與親切感。",
+              "自訂審批表單：提供可視化表單編輯器，讓使用者自定義欄位（文字、選單、日期、檔案上傳等），並可儲存為範本重複使用。",
+              "類 Telegram Tag User 功能驅動：應 PM 需求在聊天頁面上方浮動可左右滾動之使用者標籤列，並保留下方聊天列表手勢操作。我利用 View 與 hit-test 調整觸控事件路徑，2 小時內完成 iOS 原型；因 Android 同事質疑可行性，我又迅速以 Kotlin 實作 Android Demo，成功說服團隊接納需求，並順利推動上線，同時維持了團隊和諧。",
+              "快速響應需求變更與大改版：原先 PM 指示將功能區塊嵌入首頁後臨時改為獨立頁面，基於模組化與乾淨的架構設計，我僅用 2 小時（含測試）即完成抽離並重構成全新獨立頁面，確保時程無延誤；PM 對我的迅速響應與高品質交付讚譽有加，並高度肯定我的團隊合作與支援態度。"
+            ]
+          },
+          {
+            "name": "佳博體育 App ｜Flutter 技術負責人",
+            "achievements": [
+              "純 Flutter 架構，涵蓋體育賽事資訊瀏覽、即時賠率、下注流程與會員系統。",
+              "即戰力技術棧：Flutter + Dart，並大量運用 flutter_riverpod、dio、hive_flutter、go_router、sensors_plus、flutter_secure_storage、cached_network_image、flutter_svg、device_info_plus 等核心套件。",
+              "首頁大改版：主導 App 首頁全新設計，新增多個功能區塊與動態卡片，並結合 flutter_riverpod 完成即時賽事預覽與互動式模組。",
+              "創新視覺效果：透過 sensors_plus 插件獲取裝置水平與垂直加速度數值，驅動 3D 裸眼立體 Banner 效果，提升使用者互動感。",
+              "Platform Channel 原生功能橋接。"
+            ]
+          },
+          {
+            "name": "自由接案與協作專案",
+            "achievements": [
+              {
+                "name": "YES! Charging App｜iOS 工程師",
+                "link": "https://www.yes-charging.com.tw/yes-lai-dian",
+                "desc": "提供電動車與電動機車用戶即時充電資訊，與 UI/UX 設計師合作優化介面流程。"
+              },
+              {
+                "name": "Porsche Charging App｜iOS 工程師",
+                "link": "https://www.carstuff.com.tw/car-news/item/33058-taycan-app.html",
+                "desc": "為台灣保時捷車主提供充電地圖與即時服務，支援 CarPlay，改善搜尋與使用者體驗。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "company": "iOS 軟體工程師 • 遊戲橘子數位科技",
+        "period": "2018/5 ~ 2019/7 （1年3個月）",
+        "details": [
+          "與後端工程師協作，規劃資料庫欄位正規化並串接 RESTful API。",
+          "與 UI/UX 設計師共同討論、優化使用者流程與操作介面。",
+          "根據測試團隊提供的測試案例，執行流程驗證並回報問題。",
+          "基於 Google Analytics 撰寫報表，提供給 BD 團隊做行為分析與決策支持。",
+          "負責 App 的 Beta／Alpha 版本部署測試，並管理上架至 Apple App Store。",
+          "客製化 UI 元件以符合品牌與產品需求。"
+        ],
+        "projects": [
+          {
+            "name": "Swapub-二手交易平台｜iOS 技術負責人",
+            "link": "https://is.gd/9W1o4n",
+            "achievements": [
+              "核心架構重構：將功能模組化、高內聚、低耦合，提升維護性與擴充性。",
+              "導入 ReactiveCocoa：以反應式程式設計優化資料綁定與事件處理，將每日前三大崩潰原因總發生次數降至原本的 1%。",
+              "跨平台團隊協作：在只有我一位 iOS 工程師與兩位 Android 工程師的小團隊中，仍按期完成所有開發里程碑，未造成時程延誤。",
+              "客製化 UI／UX：實作自訂元件（如動態列表、互動式按鈕）並整合紅陽金流服務。",
+              "實作優惠券兌換功能。",
+              "實作網址預覽功能。",
+              "實作 Photo Filter 拍照優化功能。",
+              "實作上線狀態顯示功能。",
+              "實作物品影片預覽功能。",
+              "實作「找我附近」周邊物品搜尋功能。"
+            ]
+          }
+        ]
+      },
+      {
+       "company": "iOS 軟體工程師 • Ufi Space 優識空間",
+        "period": "2016/3 ~ 2018/5 （2年3個月）",
+        "details": [
+          "與後端工程師協作，規劃資料庫欄位正規化並串接 RESTful API。",
+          "與 UI/UX 設計師共同討論、優化使用者流程與操作介面。",
+          "根據測試團隊提供的測試案例，執行流程驗證並回報問題。",
+          "基於 Google Analytics 撰寫報表，提供給 BD 團隊做行為分析與決策支持。",
+          "負責 App 的 Beta／Alpha 版本部署測試，並管理上架至 Apple App Store。",
+          "客製化 UI 元件以符合品牌與產品需求。"
+        ],
+        "projects": [
+          {
+            "name": "康是美 App ｜iOS 技術負責人",
+            "link": "https://apps.apple.com/tw/app/%E5%BA%B7%E6%98%AF%E7%BE%8E/id891609371",
+            "achievements": [
+              "專案主導與開發：從 0 到 1 全面負責專案，領導需求分析、技術選型與團隊協調，制定核心架構與開發里程碑。",
+              "架構設計：採用 MVVM + MVC 混合架構，將核心功能拆解為高內聚、低耦合的獨立模組，提升維護性與可擴充性。",
+              "Deep Link 統一管理：由於 Deep Link 可能觸發各種頁面並需與後端API 溝通，故採集中式管理，避免散落程式碼於各處；當 PM 臨時要求移除某個 Deep Link，只需註解對應 case，數分鐘內完成變更，不影響其他功能，極大提升迭代效率。",
+              "網路請求封裝：整合 Alamofire 並搭配 RxSwift Extensions，打造基於 Observable 的網路層，支援取消、重試與統一錯誤處理。",
+              "Reactive 資料綁定：導入 RxSwift 實現 ViewModel → View 的資料綁定，簡化 UI 更新流程，改善異步錯亂與卡頓現象。",
+              "第三方服務串接：實作 Facebook API 會員登入及 Firebase Cloud Messaging 推播功能，並封裝通用介面以利後續擴充。",
+              "實作任務中心功能。",
+              "實作優惠券兌換功能。",
+              "實作會員功能。",
+              "實作門市搜尋功能。",
+              "實作問題回報功能。",
+              "實作 Apple Map 顯示店家位置功能。",
+              "常用功能封裝與 Runtime 擴充。",
+              "封裝 UIPickerView 表單選擇元件，提供基於 closure 的簡潔介面，無需傳統 delegate 即可完成選項綁定與事件回傳，大幅提升開發效率與可重用性。",
+              "實作 CustomHUD 蓋版 Loading View，可於資料載入或操作封鎖期間顯示，並可輕鬆管理與擴展。",
+              "封裝 UIAlertController 提供基於 closure 的簡潔介面，無需傳統 delegate 即可完成選項綁定與事件回傳，大幅提升開發效率與可重用性。",
+              "利用 Method Swizzling 在 UIViewController 層級統一埋點 GA Screen，根據不同子類別自動派發畫面名稱，不需在每個 ViewController 重複撰寫追蹤程式碼，維護更集中、迭代更迅速。",
+              "設計模式應用：廣泛運用工廠、策略、觀察者等設計模式，提升程式碼可讀性與測試性。",
+              "採用 RxSwift 實現 ViewModel → View 的資料綁定，簡化 UI 更新流程，改善 UI 卡頓及異步錯亂問題，使用者體驗明顯優化。",
+              "整合 Alamofire 並搭配 ReactiveX Extensions，打造基於 Observable 的網路請求模組。"
+            ]
+          },
+          {
+            "name": "Petmaji App｜iOS 技術負責人",
+            "achievements": [
+              "專案架構重構：主導程式架構重構，透過模組化設計降低頁面間耦合度，提升維護性與可擴充性，同時增強程式碼可讀性。",
+              "導入 ReactiveCocoa：採用 ReactiveCocoa 建立事件驅動與資料綁定機制，簡化異步流程並提升程式穩定性。",
+              "優惠券兌換功能：設計並實作優惠券兌換流程，支援條碼掃描與後端驗證，優化兌換體驗並提升交易成功率。",
+              "寵物體重追蹤折線圖：開發寵物體重歷史資料折線圖，利用動態圖表呈現變化趨勢，幫助使用者直觀監控寵物健康。",
+              "寵物美容預約：實作寵物預約美容功能，整合日曆選擇與時間區段管理，並加入推播提醒機制，提升預約流程便捷度與準確性。"
+            ]
+          },
+          {
+            "name": "全民原能會 App｜iOS 技術負責人",
+            "achievements": [
+              "專案架構設計：採用經典 MVC 模式，明確分離 Model、View 與 Controller 職責，降低模組間耦合並提升程式可維護性。",
+              "即時資訊呈現：串接後端 API，開發核電廠即時運轉與數據監控畫面，確保使用者隨時掌握設備狀態。",
+              "地圖定位功能：整合 Google Maps SDK，繪製監測站與核電廠位置標記，並提供地理導航與放大縮小互動功能。",
+              "安全強化：實作 Certificate Pinning，嚴格驗證伺服器憑證，杜絕中間人攻擊，保障資料傳輸安全。"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "iOS 工程師 • 時間軸 App",
+        "period": "2015/10 ~ 2015/12 （3個月）",
+        "details": [
+          "與 UI/UX 設計師共同討論、優化使用者流程與操作介面。",
+          "根據測試團隊提供的測試案例，執行流程驗證並回報問題。"
+        ],
+        "projects": [
+          {
+            "name": "巷弄美食 App",
+            "link": "https://angellulu.net/blog/post/46825393",
+            "achievements": [
+              "理解設計程式主框架。",
+              "Google Map Api 作為定位使用以及使用地圖繪製 User 至店家路徑。",
+              "實作專案所使用的 Design Pattern，例如工廠方法模式 (Factory Method Pattern)、單例模式 (Singleton) 至新功能開發。",
+              "使用 ReactiveCocoa 搭建資料或狀態變更的監聽機制。"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "實習生 • 堤刻科技股份有限公司",
+        "period": "2013/7 ~ 2013/12 （6個月）",
+        "details": [
+          "參與 MP3 播放器與拍照 App 開發。"
+        ]
+      },
+      {
+        "company": "實習生 • 新敏科技研發股份有限公司",
+        "period": "2012/2 ~ 2012/6 （5個月）",
+        "details": [
+          "協助 Android 架構與應用開發。"
+        ]
+      }
+    ],
+    "skills": [
+      "Swift", "Objective-C", "Dart", "Kotlin",
+      "UIKit", "SwiftUI", "Flutter", "Riverpod",
+      "Xcode", "Git", "Fastlane", "Firebase"
+    ],
+    "about": {
+    "title": "關於我",
+    "who": "誰是 Allen？",
+    "whoDesc": "嗨，我是許佳豪，一名專注於 iOS、Flutter 及 Web3 的軟體工程師。工作上，我最重視創新、主動解決問題，以及技術落地的實踐力。最近積極跨足 React 和 Web3 前端領域，並將學習成果實作於本網站，持續優化、嘗試各種新框架與設計模式。對我來說，工程師的價值來自於不斷學習與自我突破，並樂於將技術應用在真正能帶來改變的產品上。",
+    "story": "我的故事",
+    "storyDesc": "自大學開始接觸 App 開發，從新創小團隊的快速成長，到大型企業的專案協作，每一次轉換都讓我更加理解技術與人之間的連結。一路走來，我不僅累積了跨平台開發的專業實力，也培養了獨立思考、團隊溝通與跨領域學習的能力。隨著產業發展，我也主動投入如 AI、區塊鏈等新技術，希望在持續學習的路上，拓展更多可能性，並與團隊共同成長、解決更具挑戰性的問題。",
+    "motto": "我相信",
+    "mottoDesc": "「不為過去設限，才能為未來打開更多可能。」",
+    "mottoDesc1": "「持續學習，是工程師的基本功。」",
+    "mottoDesc2": "「問題本身就是成長的機會。」",
+    "mottoDesc3": "「技術不是目的，而是改變世界的工具。」",
+    "mottoDesc4": "「只有團隊一起成長，才能走得更遠。」",
+    "mottoDesc5": "「保持好奇，擁抱變化。」",
+    "skills": "我的亮點",
+    "skillsList": [
+      "6年主導 SmartxOffice 企業通訊、康是美 App（DAU 5萬+）、Swapub 二手平台（DAU 10萬+）等產品，專案從 0 到 1 落地",
+      "樂於探索不同產業專案，曾參與電動車充電 App 開發與 CarPlay 整合",
+      "精通 iOS／Flutter，具備跨平台開發與產品優化實戰經驗，近期持續進修 Web3 與 React 等新技術",
+      "多項專案技術負責人：即時通訊、3D互動視覺、國際化",
+      "小團隊敏捷協作＋大規模導入，產品用戶數 200 萬+",
+      "持續學習新技術，主動解決問題"
+    ],
+    "now": "近期目標",
+    "nowDesc": "近期我的學習目標，是深入掌握 React 前端技術，並將其實際應用於實戰專案中。\n我同時積極關注 Web3 生態的發展，希望能參與更多區塊鏈、去中心化應用相關的產品設計與開發。我相信，技術的本質在於解決問題與創造價值，因此除了既有的 iOS 與 Flutter 專長，我也持續拓展新技能，讓自己具備更全方位的開發能力。\n為了讓學習更有成效，我也透過 vibe coding 的方式練習並提升自己的產出力。像這個履歷網站，就是我運用 vibe coding 邊學邊做、實戰打造的專案。未來期望能在跨領域團隊中發揮影響力，勇於迎接不同產業、不同技術的各種挑戰，並把學到的知識轉化為能為團隊與產品加分的實際成果。",
+    "life": "生活與興趣",
+    "lifeDesc": "親子時光、長跑、閱讀、旅遊、釣蝦、交友。",
+    "contact": "聯絡我",
+    "github": "GitHub",
+    "email": "電子郵件"
+  }
+  }

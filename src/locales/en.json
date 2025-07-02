@@ -1,0 +1,246 @@
+{
+    "name": "HSU CHIA-HAO",
+    "nameSub": "(Allen Hsu)",
+    "abouts":"About",
+    "resume":"Resume",
+    "project":"Project",
+    "dkdtCompany":"DKDTrillion Ltd",
+    "gameCompany":"Gamania Digital Technology",
+    "ufCompany":"Ufi Space",
+    "hiiirCompany":"YUANSHI DIGITAL TECHNOLOGY",
+    "motto_no_limits" : "Don’t be limited by the past",
+    "past_open_future" : "Open yourself to more possibilities in the future",
+    "jobTitle": "iOS & Flutter Engineer",
+    "links": [
+      { "label": "✉️ Email", "href": "mailto:pt7922310@gmail.com" },
+      { "label": "🐱 GitHub", "href": "https://github.com/blackman5566", "blank": true }
+    ],
+    "buttons": [
+      { "key": "switchLanguage", "label": "🇹🇼 中文" },
+      { "key": "toggleTheme","labelDark": "☀️", "labelLight": "🌙" }
+    ],
+    "education": [
+      "Yuanpei University of Science and Technology, Master of Computer Science, 2012/9 - 2014/6",
+      "Yuanpei University of Science and Technology, Bachelor of Computer Science, 2008/9 - 2012/6"
+    ],
+    "summary": "Over 8 years of experience in native iOS development and cross-platform Flutter development, proficient in Swift, Objective-C, and Dart. Led multiple projects from zero to one with end-to-end development, including real-time messaging, secure authentication, multi-language support, dynamic themes, and large-scale workflow approvals. Possess excellent modular design and team collaboration skills.",
+    "experiences": [
+      {
+        "company": "Senior iOS Engineer • DKDTrillion Ltd. (50-100 employees)",
+        "period": "2019/7 ~ 2025/6 (6 years)",
+        "details": [
+          "Collaborated with backend engineers to plan database normalization and connect RESTful APIs.",
+          "Worked with UI/UX designers to discuss and optimize user flows and interfaces.",
+          "Executed process verification and reported issues based on test team cases.",
+          "Created reports based on Google Analytics for the BD team to support behavioral analysis and decision-making.",
+          "Managed Beta/Alpha version deployment testing and App Store submission.",
+          "Customized UI components to meet brand and product requirements."
+        ],
+        "projects": [
+          {
+            "name": "SmartxOffice Enterprise Communication App | Technical Lead",
+            "link": "https://apps.apple.com/mo/app/smartxoffice/id1474181962",
+            "achievements": [
+              "Built core architecture: modularized features with high cohesion and low coupling to improve maintainability and scalability.",
+              "Real-time messaging: developed efficient and reliable two-way communication based on WebSocket.",
+              "Biometric login: integrated Face ID/Touch ID for secure and convenient user authentication.",
+              "Dynamic fonts & theme switching: supported dark mode and multiple font sizes to enhance accessibility.",
+              "Multi-language support: managed localized resource files for rapid expansion to multiple languages.",
+              "Message receipts and read status: displayed 'delivered/read' status and allowed viewing team members' reading records.",
+              "Message reactions: provided emoji reactions to enhance team interaction.",
+              "Pinning and bulletin board: pinned important messages or announcements at the top of channels and provided dedicated announcement channels to ensure key information is not missed.",
+              "Real-time translation: offered multi-language message translation to support seamless cross-region team communication.",
+              "Multi-level workflow design: supported organizational structure integration, single or multi-stage approvals, with multiple reviewers per stage in parallel or series.",
+              "Nickname setting: allowed users to set custom nicknames for contacts or group members, prioritized display in chat lists, conversation titles, and member lists to improve recognition and friendliness.",
+              "Custom approval forms: provided a visual form editor for users to define fields (text, dropdown, date, file upload, etc.) and save templates for reuse.",
+              "Telegram-like Tag User feature: implemented a floating, horizontally scrollable user tag bar above the chat page as requested by PM, preserving gesture operations on the chat list below. Completed iOS prototype within 2 hours using View and hit-test to adjust touch event paths; quickly developed Android demo in Kotlin to convince the team and successfully launched while maintaining team harmony.",
+              "Rapid response to requirement changes and major revisions: when PM changed the feature block from embedded on the homepage to a standalone page, modular and clean architecture allowed me to complete extraction and refactoring into a new independent page within 2 hours (including testing), ensuring no schedule delay; PM highly praised my quick response and high-quality delivery, and recognized my teamwork and support attitude."
+            ]
+          },
+          {
+           "name": "GBET Sports App | Flutter Technical Lead",
+            "achievements": [
+              "Pure Flutter architecture covering sports event information browsing, real-time odds, betting process, and membership system.",
+              "Cutting-edge tech stack: Flutter + Dart, extensively using flutter_riverpod, dio, hive_flutter, go_router, sensors_plus, flutter_secure_storage, cached_network_image, flutter_svg, device_info_plus, and other core packages.",
+              "Homepage redesign: led a complete redesign with multiple feature blocks and dynamic cards, combined with flutter_riverpod for real-time event preview and interactive modules.",
+              "Innovative visual effects: used sensors_plus plugin to get device horizontal and vertical acceleration values to drive 3D naked-eye stereo banner effects, enhancing user interaction.",
+              "Platform Channel native feature bridging."
+            ]
+          },
+          {
+            "name": "Freelance and Collaborative Projects",
+            "achievements": [
+              {
+                "name": "YES! Charging App | iOS Engineer",
+                "link": "https://www.yes-charging.com.tw/yes-lai-dian",
+                "desc": "Provided real-time charging information for electric cars and scooters, collaborated with UI/UX designers to optimize interface flows."
+              },
+              {
+                "name": "Porsche Charging App | iOS Engineer",
+                "link": "https://www.carstuff.com.tw/car-news/item/33058-taycan-app.html",
+                "desc": "Provided charging maps and real-time services for Porsche owners in Taiwan, supported CarPlay, improved search and user experience."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "company": "iOS Software Engineer • Gamania Digital Technology",
+        "period": "2018/5 ~ 2019/7 (1 year 3 months)",
+        "details": [
+          "Collaborated with backend engineers to plan database normalization and connect RESTful APIs.",
+          "Worked with UI/UX designers to discuss and optimize user flows and interfaces.",
+          "Executed process verification and reported issues based on test team cases.",
+          "Created reports based on Google Analytics for the BD team to support behavioral analysis and decision-making.",
+          "Managed Beta/Alpha version deployment testing and App Store submission.",
+          "Customized UI components to meet brand and product requirements."
+        ],
+        "projects": [
+          {
+            "name": "Swapub - Second-hand Trading Platform | iOS Technical Lead",
+            "link": "https://is.gd/9W1o4n",
+            "achievements": [
+              "Core architecture refactoring: modularized features with high cohesion and low coupling to improve maintainability and scalability.",
+              "Introduced ReactiveCocoa: optimized data binding and event handling with reactive programming, reducing the top three crash causes by 99%.",
+              "Cross-platform team collaboration: as the only iOS engineer with two Android engineers, completed all milestones on schedule without delay.",
+              "Customized UI/UX: implemented custom components (dynamic lists, interactive buttons) and integrated Hongyang payment services.",
+              "Implemented coupon redemption feature.",
+              "Implemented URL preview feature.",
+              "Implemented photo filter and camera optimization features.",
+              "Implemented online status display feature.",
+              "Implemented video preview feature for items.",
+              "Implemented 'Find Nearby' peripheral item search feature."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "iOS Software Engineer • Ufi Space",
+        "period": "2016/3 ~ 2018/5 (2 years 3 months)",
+        "details": [
+          "Collaborated with backend engineers to plan database normalization and connect RESTful APIs.",
+          "Worked with UI/UX designers to discuss and optimize user flows and interfaces.",
+          "Executed process verification and reported issues based on test team cases.",
+          "Created reports based on Google Analytics for the BD team to support behavioral analysis and decision-making.",
+          "Managed Beta/Alpha version deployment testing and App Store submission.",
+          "Customized UI components to meet brand and product requirements."
+        ],
+        "projects": [
+          {
+            "name": "Cosmed App | iOS Technical Lead",
+            "link": "https://apps.apple.com/tw/app/%E5%BA%B7%E6%98%AF%E7%BE%8E/id891609371",
+            "achievements": [
+              "Project leadership and development: fully responsible for the project from zero to one, leading requirements analysis, technology selection, and team coordination, establishing core architecture and development milestones.",
+              "Architecture design: adopted a mixed MVVM + MVC architecture, decomposing core functions into highly cohesive, loosely coupled independent modules to improve maintainability and scalability.",
+              "Unified Deep Link management: centralized management of Deep Links to avoid scattered code; when PM requested removal of a Deep Link, simply commented out the corresponding case, completing changes within minutes without affecting other functions, greatly improving iteration efficiency.",
+              "Network request encapsulation: integrated Alamofire with RxSwift Extensions to build an Observable-based network layer supporting cancellation, retry, and unified error handling.",
+              "Reactive data binding: introduced RxSwift to implement ViewModel → View data binding, simplifying UI update flow and improving asynchronous disorder and stuttering.",
+              "Third-party service integration: implemented Facebook API login and Firebase Cloud Messaging push notifications, encapsulating common interfaces for future expansion.",
+              "Implemented task center feature.",
+              "Implemented coupon redemption feature.",
+              "Implemented membership feature.",
+              "Implemented store search feature.",
+              "Implemented issue reporting feature.",
+              "Implemented Apple Map store location display feature.",
+              "Common function encapsulation and runtime extension.",
+              "Encapsulated UIPickerView form selection component with closure-based interface, eliminating traditional delegate, greatly improving development efficiency and reusability.",
+              "Implemented CustomHUD overlay loading view for data loading or operation blocking, easy to manage and extend.",
+              "Encapsulated UIAlertController with closure-based interface, eliminating traditional delegate, greatly improving development efficiency and reusability.",
+              "Used Method Swizzling to unify GA Screen tracking at UIViewController level, automatically dispatching screen names based on subclasses without repeating tracking code in each ViewController, centralizing maintenance and speeding iteration.",
+              "Design pattern application: extensively used factory, strategy, observer patterns to improve code readability and testability.",
+              "Used RxSwift to implement ViewModel → View data binding, simplifying UI update flow, improving UI stuttering and asynchronous disorder, significantly enhancing user experience.",
+              "Integrated Alamofire with ReactiveX Extensions to build an Observable-based network request module."
+            ]
+          },
+          {
+            "name": "Petmaji App | iOS Technical Lead",
+            "achievements": [
+              "Project architecture refactoring: led modular design to reduce coupling between pages, improve maintainability and scalability, and enhance code readability.",
+              "Introduced ReactiveCocoa: established event-driven and data binding mechanisms to simplify asynchronous processes and improve stability.",
+              "Coupon redemption feature: designed and implemented coupon redemption process, supporting barcode scanning and backend verification, optimizing redemption experience and increasing transaction success rate.",
+              "Pet weight tracking line chart: developed historical pet weight line chart using dynamic charts to help users intuitively monitor pet health trends.",
+              "Pet grooming appointment: implemented pet grooming appointment feature, integrating calendar selection and time slot management, adding push reminders to improve convenience and accuracy."
+            ]
+          },
+          {
+            "name": "Atomic Energy Council App | iOS Technical Lead",
+            "achievements": [
+              "Project architecture design: adopted classic MVC pattern, clearly separating Model, View, and Controller responsibilities, reducing module coupling and improving maintainability.",
+              "Real-time information display: connected backend APIs to develop real-time operation and data monitoring screens for nuclear power plants, ensuring users can monitor equipment status anytime.",
+              "Map positioning feature: integrated Google Maps SDK to draw monitoring stations and nuclear power plant location markers, providing geographic navigation and zoom interaction.",
+              "Security enhancement: implemented Certificate Pinning to strictly verify server certificates, preventing man-in-the-middle attacks and ensuring data transmission security."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "iOS Engineer • YUANSHI DIGITAL TECHNOLOGY",
+        "period": "2015/10 ~ 2015/12 (3 months)",
+        "details": [
+          "Collaborated with UI/UX designers to discuss and optimize user flows and interfaces.",
+          "Executed process verification and reported issues based on test team cases."
+        ],
+        "projects": [
+          {
+            "name": "Alley Food App",
+            "link": "https://angellulu.net/blog/post/46825393",
+            "achievements": [
+              "Understood the main framework of the design program.",
+              "Used Google Map API for positioning and drawing user routes to stores on the map.",
+              "Implemented design patterns used in the project, such as Factory Method Pattern and Singleton, for new feature development.",
+              "Built data or state change monitoring mechanisms using ReactiveCocoa."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Intern • Tike Technology Co., Ltd.",
+        "period": "2013/7 ~ 2013/12 (6 months)",
+        "details": [
+          "Participated in MP3 player and camera app development."
+        ]
+      },
+      {
+        "company": "Intern • Xinmin Technology R&D Co., Ltd.",
+        "period": "2012/2 ~ 2012/6 (5 months)",
+        "details": [
+          "Assisted in Android architecture and application development."
+        ]
+      }
+    ],
+    "skills": [
+      "Swift", "Objective-C", "Dart", "Kotlin",
+      "UIKit", "SwiftUI", "Flutter", "Riverpod",
+      "Xcode", "Git", "Fastlane", "Firebase"
+    ],
+    "about": {
+    "title": "About Me",
+    "who": "Who is Allen?",
+    "whoDesc": "Hi, I'm Allen Hsu, a software engineer specializing in iOS, Flutter, and Web3. In my work, I value innovation, proactive problem-solving, and the ability to turn technology into practical solutions. Recently, I’ve been actively expanding into React and Web3 frontend development, putting my learning into practice by building and continuously optimizing this website with new frameworks and design patterns. For me, the value of an engineer comes from constant learning and self-improvement, as well as applying technology to create products that make a real difference.",
+    "story": "My Story",
+    "storyDesc": "started developing apps in college, experiencing rapid growth in small startups and project collaboration in large enterprises. Each transition has deepened my understanding of the connection between technology and people. Along the way, I have not only built strong cross-platform development expertise but also developed independent thinking, teamwork, and interdisciplinary learning abilities. As the industry evolves, I proactively explore new technologies such as AI and blockchain, aiming to broaden my horizons through continuous learning, grow with my team, and tackle even greater challenges together.",
+    "motto": "I believe",
+    "mottoDesc": "\"Don't limit yourself by the past, so you can open more possibilities for the future.\"",
+    "mottoDesc1": "\"Continuous learning is the foundation of every engineer.\"",
+    "mottoDesc2": "\"Every problem is an opportunity for growth.\"",
+    "mottoDesc3": "\"Technology is not the end goal, but a tool to make a difference.\"",
+    "mottoDesc4": "\"We can go farther only when we grow together as a team.\"",
+    "mottoDesc5": "\"Stay curious and embrace change.\"",
+    "skills": "My Highlights",
+    "skillsList": [
+      "6+ years leading major products: SmartxOffice (enterprise comms), Cosmed App (50K+ DAU), Swapub (100K+ DAU), from 0 to launch",
+      "Enjoys cross-industry projects, with hands-on experience in EV charging app development and CarPlay integration",
+      "Skilled in iOS, Flutter, Web3, React, and cross-platform product optimization",
+      "Technical lead for instant messaging, 3D UI, localization, and more",
+      "Experienced in agile teamwork and large-scale rollouts; products serve 2M+ users",
+      "Always learning, proactive in finding and solving problems"
+    ],
+    "now": "Current Focus",
+    "nowDesc": "My current focus is mastering React and applying it to real-world projects, while also exploring opportunities in the Web3 ecosystem. \nI believe technology is about solving problems and creating value, so I’m always expanding my skills beyond iOS and Flutter.To make my learning hands-on, I practice “vibe coding”—building projects as I learn. This resume website is one such example. Moving forward, I hope to contribute to cross-functional teams, tackle new challenges, and turn new knowledge into real product value.",
+    "life": "Life & Interests",
+    "lifeDesc": "Family time, long-distance running, reading, travel, shrimp fishing, and socializing",
+    "contact": "Contact",
+    "github": "GitHub",
+    "email": "Email"
+  }
+  }
