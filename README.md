@@ -1,12 +1,30 @@
-# React + Vite
+# resume-v2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+我的個人互動式履歷網站，使用 Vite + React 打造，支援多國語系、黑暗模式／白天模式切換，設計簡潔，適合用於個人展示與學習練習。
 
-Currently, two official plugins are available:
+## 🔥 特色功能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ **多國語系**：支援繁體中文、英文，切換即時同步（`i18next` + `react-i18next`）。
+- 🌗 **黑暗／白天模式**：一鍵切換，舒適瀏覽體驗。
+- ⚡ **現代前端技術**：React 19、Vite 7、Tailwind CSS 4，極速開發 & 打包。
+- 📈 **互動元件**：使用 Chart.js + react-chartjs-2，動態呈現技能與數據。
+- 💡 **vibe coding** 實踐：邊學邊做，實戰打造個人專案，提升產出力與專業形象。
 
-## Expanding the ESLint configuration
+## 🚀 技術棧與主要套件
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/) 19
+- [Vite](https://vitejs.dev/) 7
+- [Tailwind CSS](https://tailwindcss.com/) 4
+- [i18next](https://www.i18next.com/) + [react-i18next](https://react.i18next.com/)（多國語系）
+- [framer-motion](https://www.framer.com/motion/)（動畫）
+- [lucide-react](https://lucide.dev/)（圖示）
+- [clsx](https://www.npmjs.com/package/clsx)、[tailwind-merge](https://www.npmjs.com/package/tailwind-merge)
+- ESLint + Tailwind + PostCSS + autoprefixer
+
+## 🛠️ 本地開發
+
+```bash
+git clone https://github.com/blackman5566/resume.git
+cd resume
+npm install
+npm run dev
