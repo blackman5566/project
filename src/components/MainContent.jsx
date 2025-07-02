@@ -20,7 +20,7 @@ const { t, i18n } = useTranslation();
       <div className="flex items-center h-12 bg-white dark:bg-[#27282B] mb-4 px-2 shadow-md dark:shadow-black/50">
         {/* 畫面小於 md 才顯示 */}
         <button
-          className="p-2 bg-gray-800 dark:bg-gray-700 text-white rounded md:hidden"
+          className="p-2 bg-[#F7F7F7] dark:bg-[#282828] text-[#BC6E6E] dark:text-white rounded md:hidden"
           onClick={() => setSidebarOpen(!sidebarOpen)}
         >
           ☰
