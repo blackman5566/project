@@ -13,6 +13,7 @@ export default function LangSwitchBtn() {
     localStorage.setItem("lang", nextLang);
   };
 
+
   // 可根據語言顯示不同旗幟或label
   const btnIcon = lang === "en" ? "🇹🇼" : "🇺🇸";
 

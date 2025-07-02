@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
+import { useTranslation } from "react-i18next";
 
 export default function App() {
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
   //目前頁面
   const [currentPage, setCurrentPage] = useState(() => {
     return localStorage.getItem("currentPage") || "resume";
@@ -26,7 +29,6 @@ export default function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
   // 同步 currentPage 到 localStorage
   useEffect(() => {
     localStorage.setItem('currentPage', currentPage);
@@ -35,6 +37,12 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('theme', darkMode);
   }, [darkMode]);
+
+
+   // ★★動態設定 title★★
+    useEffect(() => {
+      document.title = lang === 'zh' ? '許佳豪 • 個人簡介' : 'HSU CHIA-HAO • Personal Profile English Version';
+    }, [lang]);
 
   // toggle dark mode
   const toggleDarkMode = () => {
