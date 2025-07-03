@@ -120,7 +120,9 @@ function Resume() {
           {data.name}
         </h1>
         <p className="subtitle text-gray-600 dark:text-gray-400 mb-4">{data.jobTitle}</p>
-      
+         <blockquote className="italic text-[#BC6E6E]">
+            {data.nameSub}
+          </blockquote>
       </header>
   
       {/* -------- 主要內容區 -------- */}
