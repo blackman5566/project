@@ -39,17 +39,6 @@ function Resume() {
 
   const sections = [
     {
-      id: "education",
-      content: (
-        <section id="education" className="section card bg-[#F7F7F7] dark:bg-[#282828] p-4 rounded-lg">
-          <h2 className="text-lg font-semibold mb-2 text-[#BC6E6E]">{sectionTitles.education}</h2>
-          <ul className="list-disc list-inside text-[#36393D] dark:text-[#818C96]">
-            {data.education.map((item, i) => <li key={i}>{item}</li>)}
-          </ul>
-        </section>
-      ),
-    },
-    {
       id: "summary",
       content: (
         <section id="summary" className="section card bg-[#F7F7F7] dark:bg-[#282828] p-4 rounded-lg">
@@ -110,6 +99,17 @@ function Resume() {
         </section>
       ),
     },
+    {
+      id: "education",
+      content: (
+        <section id="education" className="section card bg-[#F7F7F7] dark:bg-[#282828] p-4 rounded-lg">
+          <h2 className="text-lg font-semibold mb-2 text-[#BC6E6E]">{sectionTitles.education}</h2>
+          <ul className="list-disc list-inside text-[#36393D] dark:text-[#818C96]">
+            {data.education.map((item, i) => <li key={i}>{item}</li>)}
+          </ul>
+        </section>
+      ),
+    }
   ];
 
   return (
