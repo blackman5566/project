@@ -17,11 +17,11 @@ const TimelineCell = ({ companyName, startYear, endYear, items }) => {
       </div>
 
       {/* Right side horizontal scroll list */}
-      <div className="flex-grow flex items-center gap-5 pl-5 pr-3 overflow-x-auto min-h-[120px] scrollbar-custom">
+      <div className="flex-grow flex items-center gap- pl-5 pr-3 overflow-x-auto min-h-[120px] scrollbar-custom">
         {items.map((item, index) => (
           <div
             key={index}
-            className="min-w-[140px] max-w-[180px] bg-[var(--card)] rounded-lg shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_10px_15px_-3px_rgba(0,0,0,0.1)] flex flex-col justify-center items-center whitespace-normal px-3 py-2 text-sm font-medium text-[var(--card-foreground)] break-words"
+            className="min-w-[140px] max-w-[180px] bg-[var(--card)] rounded-lg shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_10px_15px_-3px_rgba(0,0,0,0.1)] flex flex-col justify-center items-center whitespace-normal px-3 py-3 mb-3 text-sm font-medium text-[var(--card-foreground)] break-words"
             style={{ wordBreak: "break-word" }}
           >
             <div className="mb-1 text-center font-semibold">{item.name}</div>
