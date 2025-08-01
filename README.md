@@ -1,6 +1,6 @@
-# resume
+# Project
 
-My interactive personal resume website, built with Vite + React.  
+My interactive personal project website, built with Vite + React.  
 It features multi-language support, dark/light mode toggle, and a clean modern design—perfect for personal branding, showcasing, and hands-on learning.
 
 ## 🔥 Features
