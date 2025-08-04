@@ -98,7 +98,7 @@ export default function Portfolio() {
   const { t } = useTranslation();
   const companies = [
     {
-      companyName: t("Allen_Web3_Portfolio"),
+      companyName: t("Web3_Portfolio"),
       startYear: "2025/07",
       endYear: "",
       items: [
