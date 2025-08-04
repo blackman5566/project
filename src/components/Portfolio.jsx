@@ -98,6 +98,20 @@ export default function Portfolio() {
   const { t } = useTranslation();
   const companies = [
     {
+      companyName: t("Allen_Web3_Portfolio"),
+      startYear: "2025/07",
+      endYear: "",
+      items: [
+        {
+          name: "Swap DApp",
+          description: t("Web3_title"),
+          technologies: ["Solidity", "Hardhat", "Ethers.js", "Viem", "RainbowKit", "Wagmi", "Next.js", "TypeScript", "Tailwind CSS"],
+          role: t("technicalLead"),
+          github: "https://github.com/blackman5566/swap-dapp",
+        },
+      ],
+    },
+    {
       companyName: t("dkdtCompany"),
       startYear: "2025/06",
       endYear: "2019/05",

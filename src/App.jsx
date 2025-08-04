@@ -8,7 +8,7 @@ export default function App() {
   const lang = i18n.language;
 
   const [currentPage, setCurrentPage] = useState(() => {
-    return localStorage.getItem("currentPage") || "resume";
+    return localStorage.getItem("currentPage") || "portfolio";
   });
 
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);

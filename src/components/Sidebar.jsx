@@ -33,14 +33,14 @@ export default function Sidebar({ sidebarOpen, isMobile ,currentPage,setCurrentP
       {/* 選單 */}
        {/* 選單 */}
       <nav className="flex flex-col items-center gap-2 mb-12 w-full">
-        <button
+        {/*<button
           className={`w-36 py-2 rounded-lg font-bold text-center transition
             ${currentPage === "resume" ? "bg-[rgba(255,255,255,0.3)] text-[#FCFCFC] dark:bg-[rgba(255,255,255,0.3)] dark:text-[#FCFCFC]" : "text-[#C99D9F] dark:text-[#929292] hover:bg-[rgba(255,255,255,0.2)] hover:text-[#FCFCFC] dark:hover:bg-[rgba(255,255,255,0.2)] dark:hover:text-[#FCFCFC]"}
           `}
           onClick={() => setCurrentPage("resume")}
         >
           {t("resume")}
-        </button>
+        </button>*/}
         <button
           className={`w-36 py-2 rounded-lg font-bold text-center transition
             ${currentPage === "portfolio" ? "bg-[rgba(255,255,255,0.3)] text-[#FCFCFC] dark:bg-[rgba(255,255,255,0.3)] dark:text-[#FCFCFC]" : "text-[#C99D9F] dark:text-[#929292] hover:bg-[rgba(255,255,255,0.2)] hover:text-[#FCFCFC] dark:hover:bg-[rgba(255,255,255,0.2)] dark:hover:text-[#FCFCFC]"}
@@ -49,7 +49,7 @@ export default function Sidebar({ sidebarOpen, isMobile ,currentPage,setCurrentP
         >
           {t("project")}
         </button>
-        <button
+        {/*<button
           className={`w-36 py-2 rounded-lg font-bold text-center transition
             ${currentPage === "about" ? "bg-[rgba(255,255,255,0.3)] text-[#FCFCFC] dark:bg-[rgba(255,255,255,0.3)] dark:text-[#FCFCFC]" : "text-[#C99D9F] dark:text-[#929292] hover:bg-[rgba(255,255,255,0.2)] hover:text-[#FCFCFC] dark:hover:bg-[rgba(255,255,255,0.2)] dark:hover:text-[#FCFCFC]"}
           `}
@@ -57,7 +57,7 @@ export default function Sidebar({ sidebarOpen, isMobile ,currentPage,setCurrentP
         >
           
 {t("abouts")}
-        </button>
+        </button>*/}
       </nav>
 
       {/* Spacer 讓下方 icon 靠底 */}

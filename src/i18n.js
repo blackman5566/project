@@ -18,8 +18,8 @@ i18n
       zh: { translation: zh },
       en: { translation: en },
     },
-   lng: storedLang || "zh", // 預設用 localStorage，有就用，沒有用 zh
-    fallbackLng: "zh", // 找不到時用中文
+   lng: storedLang || "en", // 預設用 localStorage，有就用，沒有用 en
+    fallbackLng: "en", // 找不到時用英文
     interpolation: {
       escapeValue: false,
     },
