@@ -99,8 +99,8 @@ export default function Portfolio() {
   const companies = [
     {
       companyName: t("Web3_Portfolio"),
-      startYear: "2025/07",
-      endYear: "",
+      startYear: t("Present"),
+      endYear: "2025/07",
       items: [
         {
           name: "Swap DApp",
