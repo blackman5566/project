@@ -111,14 +111,14 @@ export default function Portfolio() {
         },
         {
           name: "Multi-Chain Wallet",
-          description: "Shipped a runnable AA wallet demo using EntryPoint v0.6 + LightAccount v1.1 with Google Sign-In (MPC) for Web2-style onboarding.",
+          description: t("Web3_title"),
           technologies: ["Flutter", "Dart", "Riverpod", "web3dart", "Solana Dart", "flutter_secure_storage"],
           role: t("technicalLead"),
           github: "https://github.com/blackman5566/wallet_demo",
         },
          {
           name: "AA Wallet (EIP-4337)",
-          description: t("Web3_title"),
+          description: "Shipped a runnable AA wallet demo using EntryPoint v0.6 + LightAccount v1.1 with Google Sign-In (MPC) for Web2-style onboarding.",
          technologies: [
     "Flutter",
     "Dart",
